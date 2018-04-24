@@ -51,7 +51,7 @@ Please note: This is a rough agenda, and the schedule is subject to change pendi
 -   1-1:30: [4.1: Reference Architectures and Common Patterns](./04-architectures/0_README.md)
 -   1:30-2: [4.2: Activity - Architectures](./04-architectures/2_activity.md)
 -   2-2:15: Break
--   2:15-2:45: [5.1 - Integration with Cognitive Services](./05-cognitive_services/0_README.md)
+-   2:15-2:45: [5.1: Integration with Cognitive Services](./05-cognitive_services/0_README.md)
 -   2:45-3:15: [5.2: Activity - Cognitive Services](./05-cognitive_services/2_activity.md)
 -   3:15-3:30: Break
 -   3:30-4:30: [6.1: Final Case](./06-final_case/0_README.md)
