@@ -1,13 +1,26 @@
 # 02-bot_design
 
 ## Overview
-TODO
+This module focuses on the design phase of Bots. This can be either part of a specific bot project or part of a broader AI program. During the design phase, the team would meet with the customer to ensure that the user scenario chosen meets the desirability, feasibility and viability criteria, and that the specific use cases/bot conversational flows are appropriately captured. Subsequently, the design artifacts produced are subject to a customer acceptance process.
+
+The purpose of this module is to assist teams including Architects, UX Consultants, and Applications Consultants in driving design conversations for bot engagements.
 
 ## Learning objectives
 After completing this section, you should be able to:
-* TODO
-* TODO
-* TODO
+
+* Conduct effective design research.
+    * Capture the business requirements and use case for creating a bot.
+    * Document the appropriate bot conversation flow for the use case.
+    * How to define a bot personality profile.
+
+* Understand the various tools to enhance and optimize conversational flow.
+    * Core Bot programming language.
+    * Supporting technologies.
+    
+* Mapping Bot capabilities to organizational objectives.
+    * Defining a Bot dialog flow.
+    * Defining a Bot roadmap. 
+
 
 ## Navigating the GitHub
 There are several items in the [resources](./resources) folder:

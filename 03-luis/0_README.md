@@ -1,13 +1,25 @@
-# 03-luis
+# 03-LUIS Schema Design
 
 ## Overview
-TODO
+This session focuses on the design aspects of LUIS with an emphasis on schema design that has been established by conducting engagements with partners and customers. 
 
 ## Learning objectives
 After completing this section, you should be able to:
-* TODO
-* TODO
-* TODO
+
+* Design Domains and Intents
+    * Understanding LUIS Domain Options
+    * Determining Intents
+    * Bot Logic Flow – Intents
+    * LUIS Intent Evolution/Roadmap
+* Designing Entities
+    * Understanding Entities
+    * Entity types
+* Managing Utterances
+    * Utterance Design Guidance
+    * Utterance Review Guidance
+* Best Practices
+    * Best Practices
+    * Enterprise Considerations
 
 ## Navigating the GitHub
 There are several items in the [resources](./resources) folder:
