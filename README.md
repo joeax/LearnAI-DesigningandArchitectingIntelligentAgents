@@ -41,20 +41,20 @@ Please note: This is a rough agenda, and the schedule is subject to change pendi
 
 
 -   8-9: Sign in
--   9-9:30: [1.1: Introduction to the course](./01-introduction/0_README.md)
--   9:30-10: [2.1: Bot Design Principles](./02-bot_design/0_README.md)
+-   9-9:30: [1.1: Introduction to the course](./01-introduction/readme.md)
+-   9:30-10: [2.1: Bot Design Principles](./02-bot_design/readme.md)
 -   10-10:30: [2.2: Activity - Bot Design](./02-bot_design/2_activity.md)
 -   10:30-10:45: Break
--   10:45-11:30: [3.1: LUIS Design Principles](./03-luis/0_README.md)
+-   10:45-11:30: [3.1: LUIS Design Principles](./03-luis/readme.md)
 -   11:30-12: [3.2: Activity - LUIS Design](./03-luis/2_activity.md)
 -   12-1: Lunch
--   1-1:30: [4.1: Reference Architectures and Common Patterns](./04-architectures/0_README.md)
+-   1-1:30: [4.1: Reference Architectures and Common Patterns](./04-architectures/readme.md)
 -   1:30-2: [4.2: Activity - Architectures](./04-architectures/2_activity.md)
 -   2-2:15: Break
--   2:15-2:45: [5.1: Integration with Cognitive Services](./05-cognitive_services/0_README.md)
+-   2:15-2:45: [5.1: Integration with Cognitive Services](./05-cognitive_services/readme.md)
 -   2:45-3:15: [5.2: Activity - Cognitive Services](./05-cognitive_services/2_activity.md)
 -   3:15-3:30: Break
--   3:30-4:30: [6.1: Final Case](./06-final_case/0_README.md)
+-   3:30-4:30: [6.1: Final Case](./06-final_case/readme.md)
 -   4:30-5: Q&A and Feedback
 
 
