@@ -182,4 +182,4 @@ A statement of work with signatures of senior stakeholders
 
 
 ### Continue to [2_activity](./2_activity.md)
-Back to [README](./0_README.md)
+Back to [README](./readme.md)

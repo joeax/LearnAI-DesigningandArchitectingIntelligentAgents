@@ -267,4 +267,4 @@ if your app is meant to predict a wide variety of user utterances, consider impl
 Schedule a periodic review of endpoint utterances for active learning, such as every two weeks, then retrain and republish. 
 
 ### Continue to [2_activity](./2_activity.md)
-Back to [README](./0_README.md)
+Back to [README](./readme.md)

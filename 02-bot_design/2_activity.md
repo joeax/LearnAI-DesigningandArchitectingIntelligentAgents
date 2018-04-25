@@ -57,4 +57,4 @@ Using the graphic above, define the Bot Flow logic based on the information from
 Using the graphic above, define the bot roadmap and the justify the decision to the rest of the class
 
 
-Back to [README](./0_README.md)
+Back to [README](./readme.md)
