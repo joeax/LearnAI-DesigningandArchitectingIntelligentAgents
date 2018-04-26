@@ -17,9 +17,9 @@ After completing this section, you should be able to:
     * Core Bot programming language.
     * Supporting technologies.
     
-* Mapping Bot capabilities to organizational objectives.
-    * Defining a Bot dialog flow.
-    * Defining a Bot roadmap. 
+* Map Bot capabilities to organizational objectives.
+    * Define a Bot dialog flow.
+    * Define a Bot roadmap. 
 
 
 ## Navigating the GitHub
