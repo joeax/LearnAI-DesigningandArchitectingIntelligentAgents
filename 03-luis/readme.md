@@ -7,14 +7,14 @@ This session focuses on the design aspects of LUIS with an emphasis on schema de
 After completing this section, you should be able to:
 
 * Design Domains and Intents
-    * Understanding LUIS Domain Options
-    * Determining Intents
+    * Understand LUIS Domain Options
+    * Determine Intents
     * Bot Logic Flow – Intents
     * LUIS Intent Evolution/Roadmap
-* Designing Entities
+* Design Entities
     * Understanding Entities
     * Entity types
-* Managing Utterances
+* Manage Utterances
     * Utterance Design Guidance
     * Utterance Review Guidance
 * Best Practices
@@ -30,7 +30,7 @@ There are several items in the [resources](./resources) folder:
 
 
 Within this section, you will also find the following files:
-* [1_session](./1_session.md): While the slides should be the main resource, we've consolidated and annotated all of the references from the slides here to make them easier to locate and access. If you clone this repository, you can keep your notes here as well.
+* [1_session](./1_session.ipynb): While the slides should be the main resource, we've consolidated and annotated all of the references from the slides here to make them easier to locate and access. If you clone this repository, you can keep your notes here as well.
 * [2_activity](./2_activity.md): Instructions for the activity for this session will be included here.
 
-Continue to [1_session](./1_session.md)
+Continue to [1_session](./1_session.ipynb)
