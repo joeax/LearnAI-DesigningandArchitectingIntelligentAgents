@@ -12,6 +12,6 @@ Contoso Vineyard is a relatively new vineyard that is gaining popularity quickly
 
 ## Exercise
 
-Using what you've learned throughout the course, develop a potential bot design and architecture. Your group should be ready to present. Your presentation should basically be a combination of all of the activities you've completed prior to now, except now for Contoso Vineyards.
+Using what you've learned throughout the course, develop a potential bot design and architecture. Think about the bot design and what four problems you would like the bot to solve. Next, come up with a LUIS schema design that will help you address the problems. Finally, come up with an architecture and what other services/enhancements you could integrate. Your group should be ready to present. Your presentation should basically be a combination of all of the activities you've completed prior to now, except now for Contoso Vineyards.
 
 
