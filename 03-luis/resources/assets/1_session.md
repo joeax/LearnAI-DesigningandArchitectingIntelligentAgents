@@ -54,6 +54,9 @@ It is a best practice to use only as many intents as you need to perform the fun
 
 The slide shows an example of how you can map the use case intents to a conversation flow in more detail. The starting point for the this diagram is from the Bot Logic Flow – High Level design. The intention here is to focus on the conversational flow and you can start to add the supporting technology. In addition you can annotate the diagram to outline any logic for determining responses and personalization. The Logic Flow does not have to use this format, but it is important to ensure that the format is understood by the intended audience.
 
+You could use the tool [LUDown](https://github.com/Microsoft/botbuilder-tools/tree/master/Ludown) to help in the planning of LUIS models.
+
+
 ### Section 1.4: LUIS Intent Evolution/Roadmap.
 
 ![LUIS Intent Evolution/Roadmap.](./resources/assets/sess_3.1_sect_1.4.jpg)
@@ -196,18 +199,44 @@ Each intent needs to have example utterances. If you have an intent but do not h
 * Training utterances
 Training is non-deterministic: the utterance prediction could vary slightly across versions or apps.
 
+As a tool to help, you could use [Utterance Review Guidance](https://github.com/Microsoft/botbuilder-tools/tree/master/Chatdown) with new [Emulator](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0) for designing sample conversations.
 
-### Section 3.2: Utterance Review Guidance.
 
-![Utterance Review Guidance](./resources/assets/sess_3.1_sect_3.2.jpg)
+### Section 3.2: Improving Utterance Accuracy.
+
+![Improving Utterance Accuracy](./resources/assets/sess_3.1_sect_3.2.jpg)
+
+There are a number of features that you can use in your LUIS app to improve its accuracy with utterances to understand the intention of a users request. When making decisions on your LUIS design, you should consider which features can be used to improve the efficiency of utterances by making use of one, or a combination of the following features
+
+#Intent Utterance list
+
+Provides the starting point with a list of example utterances for an intent. It is important to start the process with a list of example utterance for the intent you are wanting LUIS to interpret before exploring the other features to improve the accuracy.
+
+#Phrase Lists
+
+Provides hints that certain words and phrases are part of a category. If LUIS learns how to recognize one member of the category, it can treat the others similarly. This improve the accuracy of intent scores and identify entities for words that have the same meaning (synonyms) by adding an interchangeable phrase list
+
+#Patterns
+
+Patterns can be used to improve prediction accuracy of utterances by using entities and their roles to extract data using a specific pattern. This reduces the number of utterance example you would need to provide to teach LUIS about the common utterances for an intent, saving the time it would take to train your LUIS app while improving its’ accuracy.
+
+#Regex
+
+These are non machine learned entities that matches information based on a regular expression that is defined. LUIS doesn't do the work and only determines what the user's intention is and extracts data about that intention. 
+
+
+
+### Section 3.3: Utterance Review Guidance.
+
+![Utterance Review Guidance](./resources/assets/sess_3.1_sect_3.3.jpg)
 
 * Review utterances
 After your model is trained, published, and receiving endpoint queries, review the utterances suggested by LUIS. LUIS selects endpoint utterances that have low scores for either the intent or entity. 
 
 
-### Section 3.3: Discussion. Defining Utterances
+### Section 3.4: Discussion. Defining Utterances
 
-![Discussion. Defining Utterances](./resources/assets/sess_3.1_sect_3.3.jpg)
+![Discussion. Defining Utterances](./resources/assets/sess_3.1_sect_3.4.jpg)
 
 Define a set of utterances for each of the intents in the example?
 
@@ -221,6 +250,13 @@ Use the language that represents the users
 Choose varied terminology as well as phrasing
 
 Answers will vary, but should consider the issue described above
+
+### Section 3.5: Customer Story. Nedbank
+
+![Customer Story. Nedbank](./resources/assets/sess_3.1_sect_3.5.jpg)
+
+Details of this LUIS customer story can be found [here](https://customers.microsoft.com/en-us/story/nedbank)
+
 
 ### Section 4: Best Practices
 

@@ -34,6 +34,6 @@ Pick three intents from the previous exercise and define the entities that would
 
 ![Designing Utterances](./resources/assets/sess_3.1_Lab_1.3.jpg)
 
-Using the same three intents from the previous exercise, define the utterances that would be used to capture the entities defined in the previous exercise. 
+Using the same three intents from the previous exercise, define the utterances that would be used to capture the entities defined in the previous exercise. What would you use to imporve the utterance accuracy?
 
 Back to [README](./0_README.md)

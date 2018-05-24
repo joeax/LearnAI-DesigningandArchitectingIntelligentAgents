@@ -13,7 +13,9 @@ In this section, you will explore the steps required to conduct effective design
 
 1. Understanding the organizational requirements.
 2. Understanding the types of conversation patterns.
-3. Building a personality profile for you bot.
+3. Managing Bot States
+4. Building a personality profile for you bot.
+5. Customer Story: Progressive
 
 ### Section 1.1: Understanding the organizational requirements.
 
@@ -43,6 +45,15 @@ The following are some general guidelines on running a workshop. These are harne
 * In a complete green-field scenario start by defining the personas and then use the lifecycle of the personas to identifying specific use-cases 
 * Gauge the level of understanding around Bot terminologies in the audience and feel free to set the stage with key terms and taxonomies, this allows the audience to stay engaged during the workshop and not get lost in taxonomies.
 
+Ultimately, it does not matter how “smart” a bot is, or whether it supports a rich natural language that interacts with your users seamlessly. The design phase should attempt to answer the following questions:
+
+1. Does the bot easily solve the user’s problem with the minimum number of steps?
+2. Does the bot solve the user’s problem better/easier/faster than any of the alternative experiences?
+3. Does the bot run on the devices and platforms the user cares about?
+4. Is the bot discoverable? Do the users naturally know what to do when using it?
+
+A great bot user experience does not require users to type too much, talk too much, repeat themselves several times, or explain things that the bot should automatically know.
+
 ### Section 1.2: Understanding the types of conversation patterns.
 
 ![Conversation Patterns](./resources/assets/sess_2.1_sect_1.2.jpg)
@@ -69,9 +80,26 @@ This is a unique scenario within the users domain - there are a number of proces
 * Multi-Turn Conversational Task Completion
 This is a multi-turn conversational pattern typically leading to a task completion scenario. In this type of pattern, the user is not restricted to fixed responses and can potentially provide free-form natural language response. The bot will need to interpret this within the context of the process the user is in.
 
-### Section 1.3: Building a personality profile for you bot.
+### Section 1.3: Managing Bot State.
 
-![Bot Personality Profile](./resources/assets/sess_2.1_sect_1.3.jpg)
+![Managing Bot State](./resources/assets/sess_2.1_sect_1.3.jpg)
+
+A key to good bot design is to track the context of a conversation, so that your bot remembers things like the answers to previous questions. This is know as Bot State Management. The Bot Builder SDK provides classes for storing and retrieving state data as an object associated with a user or a conversation.
+ 
+Conversation properties help your bot keep track of the current conversation the bot is having with the user. If your bot needs to complete a sequence of steps or switch between conversation topics, you can use conversation properties to manage steps in a sequence or track the current topic. Since conversation properties reflect the state of the current conversation, you typically clear them at the end of a session, when the bot receives an end of conversation activity.
+ 
+User properties can be used for many purposes, such as determining where the user's prior conversation left off or simply greeting a returning user by name. If you store a user's preferences, you can use that information to customize the conversation the next time you chat. For example, you might alert the user to a news article about a topic that interests her, or alert a user when an appointment becomes available. You should clear them if the bot receives a delete user data activity.
+The SDK provides bot state manager middleware to persist conversation and user state. State can be accessed using the bot's context. This state manager can use Azure Table Storage, file storage, or memory storage as the underlying data storage. You can also create your own storage components for your bot.
+
+Bots built using Azure Table Storage can be designed to be stateless and scalable across multiple compute nodes.
+
+For more information, go to the following [link](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-storage-concept?view=azure-bot-service-4.0)
+ 
+
+
+### Section 1.4: Building a personality profile for you bot.
+
+![Bot Personality Profile](./resources/assets/sess_2.1_sect_1.4.jpg)
 
 Would you trust someone not in your organization to speak on behalf of your organization?
 
@@ -87,9 +115,16 @@ Options to consider when defining a bot personality profile include:
 * Character
 * Target users
 
-### Section 1.4: Discussion. Bottlenecks to Effective Design Research?
+### Section 1.5: Customer Story: Progressive
 
-![Discussion](./resources/assets/sess_2.1_sect_1.4.jpg)
+![Customer Story: Progressive](./resources/assets/sess_2.1_sect_1.5.jpg)
+
+Details of this Bot Services Customer story can be found [here](https://customers.microsoft.com/en-us/story/progressive-insurance-cognitive-services)
+
+
+### Section 1.6: Discussion. Bottlenecks to Effective Design Research?
+
+![Discussion](./resources/assets/sess_2.1_sect_1.6.jpg)
 
 The following are potential answers to the questions, but encourage your students to come up with more.
 
