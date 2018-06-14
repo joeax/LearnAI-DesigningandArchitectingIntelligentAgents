@@ -4,7 +4,7 @@ This design based lab will allow you to work in groups to explore the principles
 
 
 ## Objectives
-In this lab, you will seperated into groups as directed by the instructor. Each group will be given an assignment to complete which will involve one of the following objectives:
+In this lab, you will be seperated into groups as directed by the instructor. Each group will be given an assignment to complete which will involve one of the following four objectives:
 
 - Define the Organizational Requirements
 - Define a Bot Personality Profile for the organizations chat bot

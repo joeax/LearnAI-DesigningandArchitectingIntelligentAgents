@@ -7,15 +7,16 @@ This session focuses on the design aspects of LUIS with an emphasis on schema de
 After completing this section, you should be able to:
 
 * Design Domains and Intents
-    * Understand LUIS Domain Options
-    * Determine Intents
+    * Understanding LUIS Domain Options
+    * Determining Intents
     * Bot Logic Flow – Intents
     * LUIS Intent Evolution/Roadmap
-* Design Entities
+* Designing Entities
     * Understanding Entities
     * Entity types
-* Manage Utterances
+* Managing Utterances
     * Utterance Design Guidance
+    * Improving Utterance Accuracy
     * Utterance Review Guidance
 * Best Practices
     * Best Practices

@@ -1,12 +1,12 @@
 # 05-cognitive_services
 
 ## Overview
-In addition to LUIS, this module will focus on how to add bot intelligence to bots with Cognitive Services. We'll talk about when to use what and how to combine multiple services. We'll also go through some examples of how to integrate services with the Bot Framework SDK (v3 and v4) and other tips for making bots smarter.
+In addition to LUIS, this module will focus on how to add bot intelligence to bots with Cognitive Services. We'll talk about when to use what and how to combine multiple services. We'll also go through some examples of how to integrate services (not just Cognitive Services) with the Bot Framework SDK (v3 and v4) and other tips for making bots smarter.
 
 ## Learning objectives
 After completing this section, you should be able to:
 * Articulate how various Cognitive Services can add value in bot applications
-* Integrate Cognitive Services into bot applications
+* Integrate Cognitive Services and Azure Search into bot applications
 * Leverage tools to manage conversations effectively and efficiently
 
 ## Navigating the GitHub

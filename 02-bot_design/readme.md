@@ -11,7 +11,8 @@ After completing this section, you should be able to:
 * Conduct effective design research.
     * Capture the business requirements and use case for creating a bot.
     * Document the appropriate bot conversation flow for the use case.
-    * How to define a bot personality profile.
+    * Manage Bot state information. 
+    * Define a bot personality profile.
 
 * Understand the various tools to enhance and optimize conversational flow.
     * Core Bot programming language.

@@ -6,6 +6,5 @@ The .ipynb resources should be the main resources you use for the course. If you
 
 In preparation for delivery, it's recommended that you read each session and activity carefully, along with all of the links that are referenced.
 
-
-
 ## 2.2 Activity Notes
+
