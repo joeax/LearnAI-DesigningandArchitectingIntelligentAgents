@@ -32,7 +32,7 @@ It is important to dedicate the right amount of focus on design and not get deep
 
 * Project Sponsor and other business leaders that can speak to the desired outcome from the engagement and conditions of satisfaction 
 * Business Domain experts specific to the scenario and use cases being explored with Bot. 
-* Subject Matter experts that can speak to the knowledge domain and are familiar with the conversations we expert bots to have with end-users 
+* Subject Matter experts that can speak to the knowledge domain and are familiar with the conversations we expect bots to have with end-users 
 * Technical leads that understand the overall Systems Architecture of knowledge sources and can cover any aspect of backend knowledge/integration possibilities 
 * Core Project team members, including Project Managers and Technical Consultants to ensure they are aligned with overall design requirements and business expectations.
 
