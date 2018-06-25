@@ -31,7 +31,8 @@ This course requires that you meet the following prerequisites:
 * Experience and expertise architecting solutions or building applications on Azure and with Microsoft's AI Stack
 * Experience with LUIS
 * Familiarity with Azure Bot Services/Microsoft Bot Framework
-* Understanding of the various Cognitive Services and Capabilities  
+* Understanding of the various Cognitive Services and Capabilities 
+* Completion of the materials in following [LearnAI Bootcamp course](https://azure.github.io/LearnAI-Bootcamp/emergingaidev_bootcamp) is required
 
 >Note: This is a technical, deep, discussion-based course, but there will not be hands-on-the-keyboard labs. We will point to other resources for further implementation learning
 
