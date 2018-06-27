@@ -1,11 +1,50 @@
-# 4.2: Activity - Reference Architectures and Common Patterns
+# 4.2: Activity (POC) - Reference Architectures and Common Patterns
 
-This architecture-based lab will allow you to work in groups to practice architecting intelligent agents. The output of the lab is for the class to create a potential architecture for a ficticious organization, in a continuation of the previous activities.
+An Architecture Engagement contains the following general phases. The phases covered by this lab are in italics: 
 
+ <table style="width:100%">
+  <tr>
+    <th><b>Phase</b></th>
+    <th><b>Audience</b></th>
+    <th><b>Deliverable</b></th>
+  </tr>
+  <tr>
+    <td>Discovery</td>
+    <td>Business Organization, Technical Team</td>
+    <td>Business Requirements</td>
+  </tr>
+  <tr>
+    <td>Envisioning</td>
+    <td>Business Organization, Technical Team</td>
+    <td>Business-Ready Presentation</td>
+  </tr>
+  <tr>
+    <td>Architecture Design Session</td>
+    <td>Internal and External Technical Teams</td>
+    <td>Wireframe Diagram, Data Flow Diagram</td>
+  </tr>
+  <tr>
+    <td><i>Proof of Concept</i></td>
+    <td><i>Internal and External Technical Teams</i></td>
+    <td><i>Functional Prototype</i></td>
+  </tr>
+  <tr>
+    <td>Implementation</td>
+    <td>Internal and External Technical Teams</td>
+    <td>Project Oversight Document</td>
+  </tr>
+  <tr>
+    <td>Handoff</td>
+    <td>Business Organization, Internal and External Technical Teams</td>
+    <td>All previous documents, follow-up strategy document</td>
+  </tr>
+</table> 
+
+This code-based lab allows you to work in groups to practice architecting intelligent agents. The output of the lab is for the class to create a Proof-Of-Concept engagement (a plan or the actual code) for a ficticious organization, in a continuation of the previous activities.
 
 ## Objectives
 
-In this lab, you will be seperated into groups of 3-5 people as directed by the instructor. Each group will create a potential architecture for the case study below (and from previous sections) in efforts to practice architecting intelligent solutions for bots.  
+In this lab, you will be seperated into groups of 3-5 people as directed by the instructor. Each group will create either a Proof-Of-Concept project-plan or a simple POC for the case study below (and from previous sections) for an intelligent solution for bots. The output is either the POC project-plan (complete with team memnber assignments, flow, etc.) **or** a an actual implementation of a simple POC, time permitting. Include these artefacts in your project folder so that you can include them in your final Capstone Project.  
 
 ## Case Study
 
@@ -13,10 +52,12 @@ A hotel chain CEO recently announced in a trade magazine that she is looking to 
 
 ## Exercise
 
-With your group, create a potential architecture diagram (similar in form to the key scenarios architectures). You can draw or write it out, it doesn't need to be award-winning art.  
+With your group, create either a comprehensive POC Project Plan (using any software you normally use in your regular assignments) **or** a simple functional POC application. Note the time constraints you have for this lab work, and if you do not think you can create the application itself, focus on the POC engagement. 
 
-One person from you group should be ready to share with the larger group.
+*References for creating a POC:*
 
+- [POC Described](https://www.techjini.com/blog/proof-of-concept/)
+- [Examples using the "Steel Thread" methodology](https://simplicable.com/new/steel-thread)
 
 
 Back to [README](./readme.md)
