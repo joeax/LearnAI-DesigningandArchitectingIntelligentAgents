@@ -187,7 +187,7 @@ In this section, you will explore examples of mapping Bot capability to organiza
 
 ![Mapping organizational requirements](./resources/assets/sess_2.1_sect_3.1a.jpg)
 
-The intention here is not to focus on the technology, but more on the business domain, intents and potential conversational flow. In addition, you can annotate the documentation to outline any additional requirements such a personalization. It is important to ensure that the format of the document is understood by the intended audience. Furthermore, this document is not fixed, and the expectation should be set with the customer that the initial findings could change with further investigation.
+The intention here is not to focus on the technology, but more on the business domain, intents and potential conversational flow. In addition, you can annotate the documentation to outline any additional requirements such as personalization. It is important to ensure that the format of the document is understood by the intended audience. Furthermore, this document is not fixed, and the expectation should be set with the customer that the initial findings could change with further investigation.
 
 
 ### Section 3.2: Bot Evolution Roadmap.

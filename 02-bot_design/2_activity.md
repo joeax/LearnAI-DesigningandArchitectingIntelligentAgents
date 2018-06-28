@@ -83,7 +83,7 @@ Using the materials above, document the Bot Personality profile for the organiza
 
 ## Exercise 3: Defining the Bot Roadmap
 
-![Defining the Bot Roadmap](./resources/assets/sess_2.1_Lab_1.3.jpg)
+![Defining the Bot Roadmap](./resources/assets/sess_2.1_Lab_1.4.jpg)
 
 Using the materials above, define the Business Objectives, and create a solution overview suitable for presentation to the Business Organization.   
 
