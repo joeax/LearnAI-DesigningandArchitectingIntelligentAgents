@@ -180,14 +180,15 @@ There are a range of supporting technologies that can be integrated into the bot
 
 In this section, you will explore examples of mapping Bot capability to organizational objectives, including:
 
-* Microsoft Bot Logic Flow
+* Mapping organizational requiremments
 * Bot Evolution Roadmap
 
-### Section 3.1: Microsoft Bot Logic Flow.
+### Section 3.1: Mapping organizational requiremments.
 
-![Bot Logic Flow](./resources/assets/sess_2.1_sect_3.1.jpg)
+![Mapping organizational requirements](./resources/assets/sess_2.1_sect_3.1a.jpg)
 
-The slide shows an example of how you can map the domain and use case intents at a high level. Remember that the intention here is not to focus on the technology, but more on the business domain, intents and potential conversational flow. In addition, you can annotate the diagram to outline any additional requirements such a personalization. The High Level Bot Logic Flow does not have to use this format, but it is important to ensure that the format is understood by the intended audience. Furthermore, this document is not fixed, and the expectation should be set with the customer that the initial findings could change with further investigation.
+The intention here is not to focus on the technology, but more on the business domain, intents and potential conversational flow. In addition, you can annotate the documentation to outline any additional requirements such a personalization. It is important to ensure that the format of the document is understood by the intended audience. Furthermore, this document is not fixed, and the expectation should be set with the customer that the initial findings could change with further investigation.
+
 
 ### Section 3.2: Bot Evolution Roadmap.
 
