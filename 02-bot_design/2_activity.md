@@ -47,7 +47,6 @@ In this lab, you will be separated into groups as directed by the instructor. Ea
 
 - Define the Organizational Requirements
 - Define a Bot Personality Profile for the organizations chat bot
-- Define a high level Bot Flow Logic for the organization
 - Define a Bot Roadmap for the organization
 
 In order to ensure that whole class understands the case study, the lab will begin with a class wide discussion that:
@@ -82,15 +81,9 @@ Using the materials above, document the Bot Personality profile for the organiza
 * Character
 * Target users
 
-## Exercise 3: Defining the Bot Logic Flow
+## Exercise 3: Defining the Bot Roadmap
 
-![High Level Bot Logic Flow](./resources/assets/sess_2.1_Lab_1.3.jpg)
-
-Using the materials above, document the Bot Flow logic based on the information from the case study. Note that you may need more or less boxes to define the Top Business Intents and/or conversation patterns.
-
-## Exercise 4: Defining the Bot Roadmap
-
-![Defining the Bot Roadmap](./resources/assets/sess_2.1_Lab_1.3.jpg)
+![Defining the Bot Roadmap](./resources/assets/sess_2.1_Lab_1.4.jpg)
 
 Using the materials above, define the Business Objectives, and create a solution overview suitable for presentation to the Business Organization.   
 

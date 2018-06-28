@@ -19,7 +19,7 @@ After completing this section, you should be able to:
     * Supporting technologies.
     
 * Map Bot capabilities to organizational objectives.
-    * Define a Bot dialog flow.
+    * Mapping organizational requirements.
     * Define a Bot roadmap. 
 
 
