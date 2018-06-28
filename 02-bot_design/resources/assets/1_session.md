@@ -32,7 +32,7 @@ It is important to dedicate the right amount of focus on design and not get deep
 
 * Project Sponsor and other business leaders that can speak to the desired outcome from the engagement and conditions of satisfaction 
 * Business Domain experts specific to the scenario and use cases being explored with Bot. 
-* Subject Matter experts that can speak to the knowledge domain and are familiar with the conversations we expert bots to have with end-users 
+* Subject Matter experts that can speak to the knowledge domain and are familiar with the conversations we expect bots to have with end-users 
 * Technical leads that understand the overall Systems Architecture of knowledge sources and can cover any aspect of backend knowledge/integration possibilities 
 * Core Project team members, including Project Managers and Technical Consultants to ensure they are aligned with overall design requirements and business expectations.
 
@@ -180,14 +180,15 @@ There are a range of supporting technologies that can be integrated into the bot
 
 In this section, you will explore examples of mapping Bot capability to organizational objectives, including:
 
-* Microsoft Bot Logic Flow
+* Mapping organizational requiremments
 * Bot Evolution Roadmap
 
-### Section 3.1: Microsoft Bot Logic Flow.
+### Section 3.1: Mapping organizational requiremments.
 
-![Bot Logic Flow](./resources/assets/sess_2.1_sect_3.1.jpg)
+![Mapping organizational requirements](./resources/assets/sess_2.1_sect_3.1a.jpg)
 
-The slide shows an example of how you can map the domain and use case intents at a high level. Remember that the intention here is not to focus on the technology, but more on the business domain, intents and potential conversational flow. In addition, you can annotate the diagram to outline any additional requirements such a personalization. The High Level Bot Logic Flow does not have to use this format, but it is important to ensure that the format is understood by the intended audience. Furthermore, this document is not fixed, and the expectation should be set with the customer that the initial findings could change with further investigation.
+The intention here is not to focus on the technology, but more on the business domain, intents and potential conversational flow. In addition, you can annotate the documentation to outline any additional requirements such as personalization. It is important to ensure that the format of the document is understood by the intended audience. Furthermore, this document is not fixed, and the expectation should be set with the customer that the initial findings could change with further investigation.
+
 
 ### Section 3.2: Bot Evolution Roadmap.
 
