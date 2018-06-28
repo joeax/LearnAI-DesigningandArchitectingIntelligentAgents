@@ -42,7 +42,7 @@ An Architecture Engagement contains the following general phases. In this Capsto
 
 ## Objectives
 
-This culminating activity will allow you and your group to create the implementation plan for your solution based on the work you've done througout the course. The output of this activity is a Project Plan for the implemetation of the solution, and presentation of the artefacts from the day.  
+This culminating activity will allow you and your group to create the implementation plan for your solution based on the work you've done throughout the course. The output of this activity is a Project Plan for the implementation of the solution, and presentation of the artefacts from the day.  
 
 ## Case Study
 
