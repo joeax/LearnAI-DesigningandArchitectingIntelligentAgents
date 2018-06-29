@@ -44,7 +44,7 @@ This code-based lab allows you to work in groups to practice architecting intell
 
 ## Objectives
 
-In this lab, you will be seperated into groups of 3-5 people as directed by the instructor. Each group will create either a Proof-Of-Concept project-plan or a simple POC for the case study below (and from previous sections) for an intelligent solution for bots. The output is either the POC project-plan (complete with team memnber assignments, flow, etc.) **or** a an actual implementation of a simple POC, time permitting. Include these artefacts in your project folder so that you can include them in your final Capstone Project.  
+In this lab, you will be seperated into groups of 3-5 people as directed by the instructor. Each group will create either a Proof-Of-Concept project-plan or a simple POC for the case study below (and from previous sections) for an intelligent solution for bots. The output is a sample architecture to add to your ADS document (similar to the ones presented in the session) **and** either the POC project-plan (complete with team member assignments, flow, etc.) **or** a an actual implementation of a simple POC, time permitting. Include these artefacts in your project folder so that you can include them in your final Capstone Project.  
 
 ## Case Study
 
@@ -52,7 +52,7 @@ A hotel chain CEO recently announced in a trade magazine that she is looking to 
 
 ## Exercise
 
-With your group, create either a comprehensive POC Project Plan (using any software you normally use in your regular assignments) **or** a simple functional POC application. Note the time constraints you have for this lab work, and if you do not think you can create the application itself, focus on the POC engagement. 
+With your group, create a sample architecture to add to your ADS document (similar to the ones presented in the session) **and**  either a comprehensive POC Project Plan (using any software you normally use in your regular assignments) **or** a simple functional POC application. Note the time constraints you have for this lab work, and if you do not think you can create the application itself, focus on the POC engagement. 
 
 *References for creating a POC:*
 

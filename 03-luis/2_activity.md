@@ -69,7 +69,7 @@ Update your ADS Document to select three intents from the previous exercise and 
 
 ![Designing Utterances](./resources/assets/sess_3.1_Lab_1.3.jpg)
 
-Using the same three intents from the previous exercise, define the utterances that would be used to capture the entities defined in the previous exercise, and update your ADS document accordingly. What would you use to imporve the utterance accuracy?
+Using the same three intents from the previous exercise, define the utterances that would be used to capture the entities defined in the previous exercise, and update your ADS document accordingly. What would you use to improve the utterance accuracy?
 
 Finalize your ADS session for technical presentation. Save that in the same location as the Bot Design lab exercises for inclusion into the Capstone project.
 

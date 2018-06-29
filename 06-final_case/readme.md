@@ -1,4 +1,4 @@
-#Activity (Implementation) - Capstone Project
+# Activity (Implementation) - Capstone Project
 
 An Architecture Engagement contains the following general phases. In this Capstone Project, you will create a plan for implementation and final briefing: 
 

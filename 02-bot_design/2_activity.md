@@ -64,7 +64,7 @@ Within your team, have the following discusion, which you will use to create thi
 1. What objectives should be met from the case study?
 2. Does it meet the desirability, feasibility and viability criteria? Cite examples.
 3. Can you define Use Case/Scenario that needs to be met by the bot?
-4. Can you map out the Lifecycle/Workflow for the Use Case/Scenario identified?
+4. Can you map out the Lifecycle/Workflow for the Use Case/Scenario identified?
 5. What high level domains and intents can be extrapolated from the Use Case/Scenario identified?
 
 ## Exercise 2: Defining a Bot Personality Profile 
