@@ -44,7 +44,7 @@ This course requires that you meet the following prerequisites:
 Please note: The schedule for this agenda is subject to change pending class activities and interaction.
 
 - 8-9: Sign in
-- 9-9:20: [1.1: Introduction to the course](./01-introduction/readme.md)
+- 9-9:20: 1.1: Introduction to the course (duplicated here)
 - 9:20-9:30 [Artificial Intelligence Ethics](http://aka.ms/ai-ethics)
 - 9:30-10: [2.1: Bot Design Principles](./02-bot_design/readme.md)
 -   *10-10:30: [2.2: Lab (Discovery, Envisioning) - Designing Bots](./02-bot_design/2_activity.md)*
