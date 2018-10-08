@@ -74,7 +74,7 @@ Within your team, have the following discusion, which you will use to create thi
 Using the materials above, document the Bot Personality profile for the organization. Your answer should include the following traits:
 
 * Demographics
-* BIO
+* Biography
 * Goals of the bot
 * Pain Points of the bot
 * Personality

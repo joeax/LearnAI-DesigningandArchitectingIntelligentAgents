@@ -1,6 +1,6 @@
  ### 2.1: Bot Design Principles
 
- This session focuses on the design aspects of bots with an emphasis on good bot design that has been established by conducting engagements with partners and customers. At the end of this session you will be able to:
+ This session focuses on the design aspects of bots with an emphasis on good bot design that has been established by conducting engagements with partners and customers. At the end of this session you should be able to:
  
 1. Conduct effective design research.
 2. Enhance and optimize conversational flow.
@@ -10,10 +10,10 @@
 
 In this section, you will explore the steps required to conduct effective design research, including:
 
-1. Understanding the organizational requirements.
-2. Understanding the types of conversation patterns.
+1. Understanding the organizational requirements
+2. Understanding the types of conversation patterns
 3. Managing Bot States
-4. Building a personality profile for you bot.
+4. Building a personality profile for you bot
 5. Customer Story: Progressive
 
 ### Section 1.1: Understanding the organizational requirements.
@@ -62,22 +62,22 @@ While working on defining use cases, there is a varying level of complexity invo
 One way to manage these conversations is by defining a set of conversational patterns that are organized by the level of complexity where each use case, as it is discovered, is mapped to one of those conversational patterns. These can be organized as follow:
 
 * One-Turn FAQ  
-These are general FAQ style answers that is based on one-turn responses. 
+    * These are general FAQ style answers that is based on one-turn responses. 
 
 * Intelligent Notification  
-This is a notification pattern because it is not in response to any query initiated by the user. Design guidance suggests caution when it comes to the bot providing proactive notification.
+    * This is a notification pattern because it is not in response to any query initiated by the user. Design guidance suggests caution when it comes to the bot providing proactive notification.
 
 * One-Turn Intelligent Response  
-These are also one-turn responses which don’t typically have a follow-up or additional conversational flow. These are “intelligent” terms as they need to be provided within the context of a conversation or activity. For example, a customer may ask, what time does flight XX065 leave LAX today?
+    * These are also one-turn responses which don’t typically have a follow-up or additional conversational flow. These are “intelligent” terms as they need to be provided within the context of a conversation or activity. For example, a customer may ask, what time does flight XX065 leave LAX today?
 
 * Contextual Guided Assistance  
-In this scenario, context is associated with the page/URL the user is on as opposed to who the user is and would like the bot to be able to answer questions within this context of the page/URL. 
+    * In this scenario, context is associated with the page/URL the user is on as opposed to who the user is and would like the bot to be able to answer questions within this context of the page/URL. 
 
 * Multi-Turn Process Guidance  
-This is a unique scenario within the users’ domain - there are a number of process flows established that a bot can be enabled to do a user walk-through. While these are multi-turn dialog scenarios, they are not truly conversational as the user responses are restricted to Yes/No only with potentially an option to opt out or cancel the guided assistance.
+    * This is a unique scenario within the users’ domain - there are a number of process flows established that a bot can be enabled to do a user walk-through. While these are multi-turn dialog scenarios, they are not truly conversational as the user responses are restricted to Yes/No only with potentially an option to opt out or cancel the guided assistance.
 
 * Multi-Turn Conversational Task Completion  
-This is a multi-turn conversational pattern typically leading to a task completion scenario. In this type of pattern, the user is not restricted to fixed responses and can potentially provide free-form natural language response. The bot will need to interpret this within the context of the process the user is in.
+    * This is a multi-turn conversational pattern typically leading to a task completion scenario. In this type of pattern, the user is not restricted to fixed responses and can potentially provide free-form natural language response. The bot will need to interpret this within the context of the process the user is in.
 
 ### Section 1.3: Managing Bot State.
 
@@ -88,11 +88,11 @@ A key to good bot design is to track the context of a conversation, so that your
 Conversation properties help your bot keep track of the current conversation the bot is having with the user. If your bot needs to complete a sequence of steps or switch between conversation topics, you can use conversation properties to manage steps in a sequence or track the current topic. Since conversation properties reflect the state of the current conversation, you typically clear them at the end of a session when the bot receives an end of conversation activity.
  
 User properties can be used for many purposes, such as determining where the user's prior conversation left off or simply greeting a returning user by name. If you store a user's preferences, you can use that information to customize the conversation the next time you chat. For example, you might alert the user to a news article about a topic that interests her or alert a user when an appointment becomes available. You should clear them if the bot receives a delete user data activity.
-The SDK provides bot state manager middleware to persist conversation and user state. State can be accessed using the bot's context. This state manager can use Azure Table Storage, file storage, or memory storage as the underlying data storage. You can also create your own storage components for your bot.
+The SDK provides bot state manager middleware to persist conversation and user state. State can be accessed using the bot's context. This state manager can use Azure Table Storage, CosmosDB, file storage, or memory storage as the underlying data storage. You can also create your own storage components for your bot.
 
 Bots built using Azure Table Storage can be designed to be stateless and scalable across multiple compute nodes.
 
-For more information, go to the following [link](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-storage-concept?view=azure-bot-service-4.0)
+For more information, go to the following [link](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-storage-concept?view=azure-bot-service-4.0).
 
 ### Section 1.4: Building a personality profile for you bot.
 
@@ -105,7 +105,7 @@ Your bot is going to be the spokesperson for your company. That’s why it is im
 Options to consider when defining a bot personality profile include:
 
 * Demographics
-* BIO
+* Biography
 * Goals of the bot
 * Pain Points of the bot
 * Personality
@@ -135,19 +135,19 @@ Lack of support from senior stakeholders
 How would you overcome such factors?
 
 * Project lacks diversity and depth for a full design review.  
-Consider seeking buy in from senior stakeholders to allow a variety of people with different backgrounds to take part in the review. PR and marketing professionals can be very helpful, as well as technologist and Project Managers. Consider what the actions are of the bot and seek an understanding of the role. For example, a concierge service for a hotel, and include people from that role.
+    * Consider seeking buy in from senior stakeholders to allow a variety of people with different backgrounds to take part in the review. PR and marketing professionals can be very helpful, as well as technologist and Project Managers. Consider what the actions are of the bot and seek an understanding of the role. For example, a concierge service for a hotel, and include people from that role.
 
 * Time limitations leading to an incomplete or partial research.  
-It’s important to set the correct expectations for how long effective design research will take. It is not uncommon for a number of meetings to take place as research activities are delegated to members of the team to research and report back. However, having a deadline is also important for setting a line in the sand. Without this control the research phase could go on and on
+    * It’s important to set the correct expectations for how long effective design research will take. It is not uncommon for a number of meetings to take place as research activities are delegated to members of the team to research and report back. However, having a deadline is also important for setting a line in the sand. Without this control the research phase could go on and on
 
 * A lack of understanding of the corporate, transformation or project requirements.  
-It is important that there is a clear understanding of the corporate, transformation or project requirements. This acts as the north star for the project and should include measures for success. This should be the first aspect of the effective design research phase that should be completed and is of the highest priority. If there is still uncertainty with goals, revisit them and investigate.
+    * It is important that there is a clear understanding of the corporate, transformation or project requirements. This acts as the north star for the project and should include measures for success. This should be the first aspect of the effective design research phase that should be completed and is of the highest priority. If there is still uncertainty with goals, revisit them and investigate.
 
 * Lack of support from senior stakeholders.  
-This is perhaps the most difficult to solve should the stakeholders in question not see any benefits to the solution and seriously impacts the desirability criteria. If this is the case it may be more pragmatic to shelve the project until there is more desire. However, before giving up makes sure that the senior stakeholders in question understand the commercial benefits of taking on the project. Be it to reduce operational costs, improve customer service and therefore retaining more new customers or using the bot for upsell opportunities.
+    * This is perhaps the most difficult to solve should the stakeholders in question not see any benefits to the solution and seriously impacts the desirability criteria. If this is the case it may be more pragmatic to shelve the project until there is more desire. However, before giving up makes sure that the senior stakeholders in question understand the commercial benefits of taking on the project. Be it to reduce operational costs, improve customer service and therefore retaining more new customers or using the bot for upsell opportunities.
 
 * Bot personality profiling may be viewed as non-serious. How would you address this mindset?  
-As a technologist or Project Manager, you wouldn’t. You would lean on the expertise of the PR and marketing team to communicate the importance of the bot representing the company and how it would come across. This enables their expertise to come to the fore and cement the reason for their presence on the team
+    * As a technologist or Project Manager, you wouldn’t. You would lean on the expertise of the PR and marketing team to communicate the importance of the bot representing the company and how it would come across. This enables their expertise to come to the fore and cement the reason for their presence on the team
 
 ### Section 2: Enhance and optimize conversational flow
 
@@ -200,7 +200,10 @@ The development of bots will likely be an evolution, not a revolution. It may no
 The following are potential answers to the questions but encourage your students to come up with more.
 
 How would deal with individuals who required more detail than the High Level Bot Flow Logic would provide?
-Outline to those concerned that the purpose of the effective design research is to establish the high level objectives of the project, understand the personality of the bot and get an understanding of the tasks that it is trying to solve so the team can start to get an understanding of what technologies may be used. The output is to create a high level bot logic flow and a roadmap with approximately timescales in the first instance. At this stage, a discovery exercise is being performed on what could be possible and more details will be flushed out in other portions of the project such as the LUIS schema design and the physical architectures
+* Outline to those concerned that the purpose of the effective design research is to establish the high level objectives of the project, understand the personality of the bot and get an understanding of the tasks that it is trying to solve so the team can start to get an understanding of what technologies may be used. The output is to create a high level bot logic flow and a roadmap with approximately timescales in the first instance. At this stage, a discovery exercise is being performed on what could be possible and more details will be flushed out in other portions of the project such as the LUIS schema design and the physical architectures
 
 What artefacts in addition to those seen in this module would you require to ensure sign-off?  
-A statement of work with signatures of senior stakeholders.  
+* A statement of work with signatures of senior stakeholders.  
+
+### Continue to [2_activity](./2_activity.md)
+Back to [README](./readme.md)
