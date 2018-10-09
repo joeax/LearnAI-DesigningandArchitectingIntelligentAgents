@@ -19,7 +19,9 @@ In the activity that follows this session, you'll get the opportunity to create 
 There will be three main topics covered in this session:
 1.  Key scenarios for bots
 2.  Common patterns for bots
-3.  Bot Framework v4 SDK
+3.  Microsoft Bot Framework SDK V4
+
+> **!Important Note 10/09/2018!**: The Microsoft Bot Framework SDK V4 went GA in September 2018 at Ignite. Since it is still fairly new, some of the samples referenced are still in SDK V3. They are still valuable resources for seeing how to organize code in various architectures, but the exact code may not be usable in a V4 bot application. 
 
 ## Section 1: Key scenarios for bots
 Let's dive in. There are four key scenarios we are going to cover in this session:
@@ -28,9 +30,10 @@ Let's dive in. There are four key scenarios we are going to cover in this sessio
 * Information bot
 * IoT bot  
 
-There is one more scenario, for a Commerce bot, but we will go over that after the activity that follows this session.  
+There is one more scenario, for a Commerce bot, but we will go over that in the activity that follows this session.  
 
-While we will present specific architectures, it's important to note that these will vary largely depending on your specific scenario.
+While we will present specific architectures, it's important to note that these will vary largely depending on your specific scenario. We're simply trying to call out when and how you might piece services together.
+
 
 ### Section 1.1: Cortana skills bot
 
@@ -48,7 +51,7 @@ Here is the logic flow of a Cortana skills bot for an auto shop:
 5.  Presented with contextual options, the user can book the appointment.
 6.  Application insights gathers runtime telemetry to help development with bot performance and usage.
 
-You can follow [this tutorial](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-cortana-skill) learn how to build a speech-enabled bot with Cortana skills. You should also check out the [Cortana skills kit documentation](https://docs.microsoft.com/en-us/cortana/skills/overview) and the [Cortana skills samples](https://docs.microsoft.com/en-us/cortana/skills/cortana-samples).
+You can follow [this tutorial](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-cortana-skill) learn how to build a speech-enabled bot with Cortana skills with the V3 SDK. For the V4 SDK, you can [learn how to connect to the Cortana channel](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-cortana?view=azure-bot-service-4.0) and [how to configure speech priming](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-speech-priming?view=azure-bot-service-4.0). You can also check out the [Cortana skills kit documentation](https://docs.microsoft.com/en-us/cortana/skills/overview) and the [Cortana skills samples](https://docs.microsoft.com/en-us/cortana/skills/cortana-samples) for learning more about building applications (not just bots) with Cortana.
 
 #### Real world examples for similar architectures
 
@@ -56,7 +59,7 @@ To change how it engages with customers, the multinational telco [Telefonica](ht
 
 #### A related solution to look into
 
-The AI Gallery is where you can find prebuilt solutions to meet various needs - demos, POCs, tutorials, and more. We picked a solution around interactive voice response bots. This specific solution allows you to 1-click deploy or build from scratch an IVR (interactive voice response) bot for a Bike Store. You can read more about the [solution here](https://azure.microsoft.com/en-us/solutions/architecture/interactive-voice-response-bot/), but we've included the architecture below:
+The AI Gallery is where you can find prebuilt solutions to meet various needs - demos, POCs, tutorials, and more. We picked a solution around interactive voice response bots. This specific solution allows you to 1-click deploy or build from scratch an IVR (interactive voice response) bot for a Bike Store that using the V3 SDK. You can read more about the [solution here](https://azure.microsoft.com/en-us/solutions/architecture/interactive-voice-response-bot/), but we've included the architecture below:
 
 ![Bike Store IVR bot architecture](./resources/assets/bikestore.png)
 
@@ -76,7 +79,7 @@ Here is the logic flow for our enterprise productivity bot:
 5.  The information is returned to the employee who can filter down the data without leaving the bot.
 6.  Application insights gathers runtime telemetry to help development with bot performance and usage.  
 
-You can find some sample code for the scenario described [here](https://github.com/Microsoft/AzureBotServices-scenarios/tree/master/CSharp/Enterprise/src).
+You can find some sample code (with the V3 SDK) for the scenario described [here](https://github.com/Microsoft/AzureBotServices-scenarios/tree/master/CSharp/Enterprise/src), and you can learn more about adding authentication to bots with the V4 SDK [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-authentication?view=azure-bot-service-4.0&tabs=csharp) and view the V4 SDK sample code [here](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/18.bot-authentication).
 
 While we're on the topic of enterprise productivity, it's important to provide a little warning. Many times, organizations will see productivity gains of utilizing bots across the enterprise. In many cases, a department will create a bot that turns out to be a success. Other departments quickly see the value and apply the bot technology to their domain. Fast forward several months, and there are many bots floating around with different architectures. When developing bots, as an enterprise, [there needs to be a cohesive enterprise bot strategy and architecture in place](https://blogs.msdn.microsoft.com/pragdev/2018/02/10/enterprise-bot-architecture/) so the following concerns are addressed effectively and consistently:
 * User experience
@@ -91,7 +94,9 @@ We **highly recommend** you read [this article](https://blogs.msdn.microsoft.com
 
 Let's talk about [Apttus](http://www.apttus.com/), a market leader in intelligent Quote-to-Cash (QTC) solutions, that helps companies accelerate their digital transformation efforts and maximize business outcomes. They really committed to Microsoft's Azure platform and services (seriously, the list of products is overwhelming). Let's focus in their AI-driven deal guidance that they developed for sales reps. When a salesperson takes an action, the platform built is able to look at similar sales scenarios and advise the sales rep on the best, most profitable next step. Apttus gave their tech a human touch with a virtual assitant named Max who will guide the sales reps. In addition to interacting with sales reps, she can also carry out complex business process that take hours for humans to complete. The architecture, the details (including Max's personality and contact photo), and a great story can be found [here](https://customers.microsoft.com/en-us/story/apttus). 
 
-[VHV Allgemeine Verischerung](https://www.vhv.de/) is a company in the insurance sector that worked with Microsoft Consulting Services to create a bot, Mia, to quickly answer individual questions about a product at the point of sale in order to increase conversion rate. The knowledge management and data enhancement of the bot was carried out by using Dynamics 365. They deployed the initial bot in less than six weeks with a soft launch on their webiste. Gradually, it was shown to more and more users. A benefit of deploying with a soft launch is that errors can be identified and addressed without affecting too many users. [Read the full story](https://customers.microsoft.com/en-us/story/vhv-allgemeine-versicherung-dynamics365-cognitive-powerbi-azure-insurance-germany-services-en).
+[VHV Allgemeine Verischerung](https://www.vhv.de/) is a company in the insurance sector that worked with Microsoft Consulting Services to create a bot, Mia, to quickly answer individual questions about a product at the point of sale in order to increase conversion rate. The knowledge management and data enhancement of the bot was carried out by using Dynamics 365. They deployed the initial bot in less than six weeks with a soft launch on their webiste. Gradually, it was shown to more and more users. A benefit of deploying with a soft launch is that errors can be identified and addressed without affecting too many users. [Read the full story](https://customers.microsoft.com/en-us/story/vhv-allgemeine-versicherung-dynamics365-cognitive-powerbi-azure-insurance-germany-services-en).  
+
+If you're developing bots (with any SDK), you should also read more about [Sage's success orchestrating multiple bots with multilingual support](https://www.microsoft.com/developerblog/2017/01/21/orchestrating-multiple-bots-with-multilingual-support/). To speak briefly, Sage was supporting its localization and channel needs by writing multiple copies of the same bot for every language and every channel. Each of these bots needed to be registered and maintained separately - which resulted in a lot of code to maintain. Microsoft and Sage partnered together to architect a single Enterprise-grade bot that used middleware to enable context switching, which means that the user can switch between different child bots (e.g. Credit Card Bot and Health Checkup Bot), and to enable development with a multilingual approach using language resources.  
 
 ### Section 1.3: Information bot
 
@@ -112,7 +117,7 @@ Here is the logic flow of this Information bot:
 6.  The bot submits the query to Azure Search which returns information from SQL to the user.
 7.   Application insights gathers runtime telemetry to help development with bot performance and usage.
 
-You can find some sample code for the scenario described [here](https://github.com/Microsoft/AzureBotServices-scenarios/tree/master/CSharp/Informational/src).  
+You can find some sample code (using V3 SDK) for the scenario described [here](https://github.com/Microsoft/AzureBotServices-scenarios/tree/master/CSharp/Informational/src).  
 
 ####  Real world examples for similar architectures
 
@@ -131,7 +136,7 @@ We talked about how QnAMaker can make it easy for the content owners to maintain
 ![FAQ bot architecture](./resources/assets/faqbot.png)
 
 Potential Flow:
-1. Employee access FAQ Bot
+1. Employee accesses FAQ Bot
 2. Azure AD validates the employee’s identity
 3. Query is sent to a LUIS model to get the intent of the query
 4. Based on the intent, the query is redirected to the appropriate knowledge base
@@ -140,7 +145,7 @@ Potential Flow:
 7. Data Champions manage and update their QnA Knowledge base based on the feedback from user traffic
 
 
-You can access the architecture details [here](https://azure.microsoft.com/en-us/solutions/architecture/faq-chatbot-with-data-champion-model/).
+You can access the architecture details [here](https://azure.microsoft.com/en-us/solutions/architecture/faq-chatbot-with-data-champion-model/), and [learn how to integrate QnA Maker into V4 SDK bots here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&tabs=cs). There's also a [full V4 SDK sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/11.qnamaker).
 
 ### Section 1.4: IoT Bot
 
@@ -159,7 +164,7 @@ Here is the logic flow for this sample IoT bot:
 4. The results of the command are returned to the user.
 5. Application insights gathers runtime telemetry to help development with bot performance and usage.
 
-You can review some sample code for this scenario [here](https://github.com/Microsoft/AzureBotServices-scenarios/tree/master/CSharp/Iot/src).
+You can review some sample code (with the V3 SDK) for this scenario [here](https://github.com/Microsoft/AzureBotServices-scenarios/tree/master/CSharp/Iot/src).
 
 When we talk about [Microsoft Azure and IoT](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-what-is-azure-iot), we've really opened the doors to what scenarios we could be dealing with. [IoT Solutions](https://www.microsoft.com/en-us/internet-of-things/solutions) can be tailored for any need, to help employees make informed decisions, optimize operations, reduce costs, and create new revenue streams. But how does this surface in a bot? Here are a few ideas: 
 
@@ -189,7 +194,7 @@ When we talk about common patterns for bots, we're referring to the set of tasks
 
 A [task automation](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-pattern-task-automation) bot enables a user to complete a specific task or set of tasks without any assistance from a human. This type of bot often closely resembles a typical app or website, communicating with the user primarily via rich user controls and text. It may have natural language understanding capabilities to enrich conversations with users.
 
-To better understand the nature of a task bot, read about an [example use case: password-reset](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-pattern-task-automation#example-use-case-password-reset), and check out the sample code ([C# v3 SDK](https://github.com/Microsoft/BotBuilder-Samples/tree/master/CSharp/capability-SimpleTaskAutomation) and [Node.js v3 SDK](https://github.com/Microsoft/BotBuilder-Samples/tree/master/Node/capability-SimpleTaskAutomation)).
+To better understand the nature of a task bot, read about an [example use case: password-reset](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-pattern-task-automation#example-use-case-password-reset), and check out the sample code ([C# v3 SDK](https://github.com/Microsoft/BotBuilder-Samples/tree/master/CSharp/capability-SimpleTaskAutomation) and [Node.js v3 SDK](https://github.com/Microsoft/BotBuilder-Samples/tree/master/Node/capability-SimpleTaskAutomation)). Because of the release of the V4 SDK and the frequency with which we get asked about password reset bots, we worked with a partner to create a template for a password reset bot for any organization. You can access [more information and the code here](https://blogs.msdn.microsoft.com/buckwoody/2018/09/25/applied-ai-using-a-bot-for-password-reset/).
 
 ### Section 2.2: Access to knowledge and other content
 
@@ -242,8 +247,6 @@ Here's a high-level flow with a brief explanation for each step. You should refe
 6. The website [signals to the bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-pattern-integrate-browser#website-signal-to-bot) that the user has completed the website flow and provides the magic number and any relevant data.
 7. The user provides the magic number to the bot, and the bot validates that it matches the expected value.  
 
-If you want to get into the code, we recommend checking out these samples for bot authentication with the [Bot Framework v3 SDK](https://github.com/MicrosoftDX/botauth). You can also see what's been added to the Bot Framework v4 SDK authentication libraries for [.NET](https://github.com/Microsoft/botbuilder-dotnet/tree/master/libraries/Microsoft.Bot.Connector/Authentication) and [Node.js](https://github.com/Microsoft/botbuilder-js/tree/master/libraries/botframework-connector/lib/auth). 
-
 [This blog](https://blogs.msdn.microsoft.com/uk_faculty_connection/2016/06/17/developing-a-microsoft-health-bot-based-on-data-captured-from-the-microsoft-band/) also provides a nice end-to-end example for how you might incorporate bot to web browser and back into a Health Bot with data from the Microsoft Band ([RIP](www.businessinsider.com/microsoft-fitness-band-discontinued-2016-10)).
 
 ### Section 2.5: Bots in websites and apps
@@ -264,7 +267,7 @@ The [backchannel](https://docs.microsoft.com/en-us/azure/bot-service/nodejs/bot-
 * The bot can send "commands" to the web page (e.g., change background color).  
 
 
-Check out the [documentation](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-pattern-embed-app) and this [bot in apps sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/CSharp/capability-BotInApps) for more information.
+Check out the [documentation](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-pattern-embed-app) for more information.
 
 ### Section 2.6: Communicating with rich text and media
 
@@ -275,7 +278,7 @@ When you're sending messages to users, you can use the `Microsoft.Bot.Builder.Me
 * Hero card: Besides a simple attachment, you can attach a hero card, which allows you to combine images and buttons in one object.
 * Adaptive card: Adaptive cards make it easier for you to build for one channel and deploy to many, matching the theme of the destination. The documentation specific to Adaptive cards is [here](https://docs.microsoft.com/en-us/adaptive-cards/).
 * Carousel of cards: Use these when you want to include multiple attachments in a carousel layout, which places the attachments side-by-side and allows the user to scroll across (like a carousel...). 
-* Suggested actions: These are great and also know as "quick replies" that can be shown to the user for a single (specific) turn of the conversation, meaning that after the user makes a selection they cannot return and click an "older" suggestion. Suggested actions can be used to decrease the amount of typing for users, as well as to help guide users through a conversation.  
+* [Suggested actions](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-add-suggested-actions?view=azure-bot-service-4.0&tabs=csharp): These are great and also know as "quick replies" that can be shown to the user for a single (specific) turn of the conversation, meaning that after the user makes a selection they cannot return and click an "older" suggestion. Suggested actions can be used to decrease the amount of typing for users, as well as to help guide users through a conversation.  
 
 Along with suggested actions, you can use (and read about) [using dialogs to manage conversation flow](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-dialog-manage-conversation-flow?view=azure-bot-service-4.0&tabs=csharp) and [creating modular bot logic with Dialog Container](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-compositcontrol?view=azure-bot-service-4.0).
 
@@ -299,13 +302,13 @@ There will inevitably be interruptions that are out of scope of what you bot is 
 You can read more about handling unexpected interruptions [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-handle-user-interrupt?view=azure-bot-service-4.0#handle-unexpected-interruptions).
 
 ### Section 2.8: Authentication
-Recent updates to Azure Bot Service makes it easier to develop a bot that authenticates users to various identity providers such as Azure AD, GitHub, and more. These updates also take steps towards an improved user experience by eliminating the magic code verification for some clients.  
+Recent updates to Azure Bot Service make it [easier to develop a bot that authenticates users to various identity providers such as Azure AD, GitHub, and more](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-authentication?view=azure-bot-service-4.0&tabs=csharp). These updates also take steps towards an improved user experience by eliminating the magic code verification for some clients.  
 
 Prior to these updates,  your bot needed to include OAuth controllers and login links, store the target client IDs and secrets, and perform user token management.  
 
 Now, bot developers no longer need to host OAuth controllers or manage the token lifecycle, as all of this can now be done by the Azure Bot Service. From within the Azure Portal, you can add, delete, and configure connection settings to various OAuth identity providers (there is support for AAD v1, AAD v2, GitHub, and others).  
 
-You can read more, access samples, and follow tutorials [from here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-authentication?view=azure-bot-service-3.0).
+If you want to get into the code, we recommend checking out these samples for bot authentication with the [V3 SDK](https://github.com/MicrosoftDX/botauth) and [V4 SDK](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/18.bot-authentication). There's even a sample for [authenticating with Microsoft Graph](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/24.bot-authentication-msgraph). 
 
 ## Section 3: Bot Framework v4 SDK
 
@@ -322,20 +325,17 @@ There are two main reasons:
 1. C#/Node.js SDKs in v3 are vastly different. There are different names for the same concepts, different concepts, different architectures, no common extensibility points, and complex dependency trees.
 2. Both SDKs are too opinionated, regarding conversation management and state management.
 
-So, as you might've guessed, the Bot Framework v4 SDK had four related goals:
+So, as you might've guessed, the Bot Framework V4 SDK had four related goals:
 1. Simplify
 2. Unify programming models across languages
 3. Allow developers to pick components and services
-4. Break monolithic stack into a la carte libraries to enable more innovation
+4. Break monolithic stack into a la carte libraries to enable more innovation  
 
-The v4 SDK architecture:
-![v4 SDK Architecture](./resources/assets/v4sdk.png)
+If you'll be developing bots with the V4 SDK, we recommend [reading through the documentation](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0) to understand what's different and stay up-to-date on what [samples](https://github.com/Microsoft/BotBuilder-Samples) are available. Additionally, we've created a lab for you (to complete later) as part of the [LearnAI-Bootcamp](https://azure.github.io/LearnAI-Bootcamp/) that integrates Azure Search and LUIS into a bot built with the Bot Framework V4 SDK. You can find the [building bots lab here](https://github.com/Azure/LearnAI-Bootcamp/tree/master/lab02.2-building_bots).
 
-Each GitHub repository should have a "Wiki" tab with documentation information to help you get started. Additionally, we've created a lab for you (to complete later) as part of the [LearnAI-Bootcamp](https://azure.github.io/LearnAI-Bootcamp/) that integrates Azure Search and LUIS into a bot built with the Bot Framework v4 SDK. You can find the [building bots lab here](https://github.com/Azure/LearnAI-Bootcamp/tree/master/lab02.2-building_bots).
+One important thing to note is that Microsoft does not at the moment have plans to stop supporting the V3 SDK. According to the [Roadmap](https://github.com/Microsoft/botbuilder-dotnet/wiki/Roadmap), the team is working on determining a migration plan from V3 to V4.  
 
-One important thing to note is that Microsoft has made it easy for you to convert v3 bots into v4 bots without significant development. [You can read about the process.](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-classic?view=azure-bot-service-4.0)
-
-In 05-cognitive_services, we'll talk more about some of the differences between v3 and v4, and we'll walk through integrating services into the v3 and v4 SDK.
+In 05-cognitive_services, we'll walk through a few of the samples that show you how to integrate Cognitive Services into V4 SDK bots.
 
 ### Continue to [2_activity](./2_activity.md)
 Back to [README](./readme.md)

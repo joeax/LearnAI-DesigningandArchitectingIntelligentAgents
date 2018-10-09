@@ -18,7 +18,7 @@ There are several items in the [resources](./resources) folder:
 
 
 Within this section, you will also find the following files:
-* [1_session](./1_session.ipynb): We've created a guide that basically walks you through the presentation. If you're in a classroom, feel free to follow along or clone the repository and take notes here. If you're completing this course as a self-study exercise, read the section carefully and spend time diving into each link you come across.
+* [1_session](./1_session.md): We've created a guide that basically walks you through the presentation. If you're in a classroom, feel free to follow along or clone the repository and take notes here. If you're completing this course as a self-study exercise, read the section carefully and spend time diving into each link you come across.
 * [2_activity](./2_activity.md): Instructions for the activity for this session will be included here.
 
-Continue to [1_session](./1_session.ipynb)
+Continue to [1_session](./1_session.md)
