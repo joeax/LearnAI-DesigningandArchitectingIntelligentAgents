@@ -44,7 +44,7 @@ Skipping one phase for the moment, this architect-based lab will allow you to wo
 
 ## Objectives
 
-In this lab, you will be seperated into groups of 3-5 people as directed by the instructor. Each group will brainstorm ways to add Cognitive Services to bots, for the case study below (and from previous sections), to make them smarter and more effective/efficient. You will create a proposal for this design to be included in your Capstone Project.
+In this lab, you will be separated into groups of 3-5 people as directed by the instructor. Each group will brainstorm ways to add Cognitive Services to bots, for the case study below (and from previous sections), to make them smarter and more effective/efficient. You will create a proposal for this design to be included in your Capstone Project.
 
 ## Case Study
 
@@ -54,6 +54,6 @@ A hotel chain CEO recently announced in a trade magazine that she is looking to 
 
 Now that you have a potential architecture, let's build on what you have.
 
-Using your ADS architecture, brainstorm with your team which services will add value to the bot and _how_ you might implement it. Don't be afraid to be creative! This is a brainstorming exercise. Create a proposal that will be included in your Captsone project at the end, entitled "Phase Two Enhancements".
+Using your ADS architecture, brainstorm with your team which services will add value to the bot and _how_ you might implement it. Don't be afraid to be creative! This is a brainstorming exercise. Create a proposal that will be included in your Capstone project at the end, entitled "Phase Two Enhancements".
 
 Back to [README](./readme.md)

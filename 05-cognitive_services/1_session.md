@@ -134,7 +134,7 @@ The examples we will point you to walk through integrating QnA Maker, LUIS, and 
 
 In addition, we wanted to provide a list of samples that integrate multiple:
 1. [LearnAI-Bootcamp for Emerging AI Developers](https://github.com/Azure/LearnAI-Bootcamp/blob/master/emergingaidev_bootcamp.md)
-    * Step-by-step instructions for building a V4 SDK bot that incorporates the Compputer Vision API, LUIS, Azure Search, and the Bing Image Search API.
+    * Step-by-step instructions for building a V4 SDK bot that incorporates the Computer Vision API, LUIS, Azure Search, and the Bing Image Search API.
 2. [Conference Buddy Bot](https://github.com/Azure/ConferenceBuddy)
     * While this sample is currently still in the V3 SDK, it's a great sample that shows how you might integrate Cognitive Services (Text Analytics, Bing Search, QnA Maker, and Video Indexer) into a bot.
 2. More samples from the BotBuilder-Samples repository
@@ -157,7 +157,7 @@ In the Bot Builder v4 SDK, for each activity that your application receives, the
 
 #### Managing historical data
 
-For many reasons, you may choose to log or store different conversation aspects. One reason might be to determine what kinds of things users are actually using the bot, and another reason might be to collect data about users to generate machine learning models (e.g. a recommendatione engine based on what users typically search for in a retail bot). The V4 SDK makes it easier for you to do this, by building in sample code around `LoggerFactory` (which is an extension within the `Microsoft.Extensions.Logging` library) to most of the `Startup.cs` files in the samples. You can see logging being implemented in [this sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/22.conversation-history), and the storage being set up in [this sample](https://github.com/Microsoft/BotBuilder-Samples/blob/master/samples/csharp_dotnetcore/13.basic-bot/Startup.cs).
+For many reasons, you may choose to log or store different conversation aspects. One reason might be to determine what kinds of things users are actually using the bot, and another reason might be to collect data about users to generate machine learning models (e.g. a recommendation engine based on what users typically search for in a retail bot). The V4 SDK makes it easier for you to do this, by building in sample code around `LoggerFactory` (which is an extension within the `Microsoft.Extensions.Logging` library) to most of the `Startup.cs` files in the samples. You can see logging being implemented in [this sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/22.conversation-history), and the storage being set up in [this sample](https://github.com/Microsoft/BotBuilder-Samples/blob/master/samples/csharp_dotnetcore/13.basic-bot/Startup.cs).
 
 **Want to dive deeper?** 
 

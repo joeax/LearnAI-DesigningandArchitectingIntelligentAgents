@@ -39,9 +39,9 @@ It is important to dedicate the right amount of focus on design and not get deep
 The following are some general guidelines on running a workshop. These are harnessed through previous engagements conducted by the Microsoft Services teams. 
 
 * Start the discussion broadly with Design Led Thinking making sure Desirability, Feasibility and Viability criteria are top of mind. 
-* Use existing logs/fact based analysis for driving towards top intents and key uses cases. 
+* Use existing logs/fact-based analysis for driving towards top intents and key uses cases. 
 * Use the Pareto Principle to make the cases if applicable 
-* In a complete green-field scenario start by defining the personas and then use the lifecycle of the personas to identifying specific use-cases 
+* In a complete green-field scenario, start by defining the personas and then use the lifecycle of the personas to identify specific use-cases 
 * Gauge the level of understanding around Bot terminologies in the audience and feel free to set the stage with key terms and taxonomies, this allows the audience to stay engaged during the workshop and not get lost in taxonomies.
 
 Ultimately, it does not matter how “smart” a bot is, or whether it supports a rich natural language that interacts with your users seamlessly. The design phase should attempt to answer the following questions:
@@ -122,15 +122,15 @@ Details of this Bot Services Customer story can be found [here](https://customer
 
 ![Discussion](./resources/assets/sess_2.1_sect_1.6.jpg)
 
-The following are potential answers to the questions but encourage your students to come up with more.
+The following are potential answers to the questions but encourage your students to produce more.
 
 What factors could affect effective design research?
 
 There are a range of answers here that could impact the effective design research including the following:
-Project lacks diversity and depth for a full design review.
-Time limitations leading to an incomplete or partial research.
-A lack of understanding of the corporate, transformation or project requirements
-Lack of support from senior stakeholders
+* Project lacks diversity and depth for a full design review.
+* Time limitations leading to an incomplete or partial research.
+* A lack of understanding of the corporate, transformation or project requirements
+* Lack of support from senior stakeholders
 
 How would you overcome such factors?
 
@@ -138,7 +138,7 @@ How would you overcome such factors?
     * Consider seeking buy in from senior stakeholders to allow a variety of people with different backgrounds to take part in the review. PR and marketing professionals can be very helpful, as well as technologist and Project Managers. Consider what the actions are of the bot and seek an understanding of the role. For example, a concierge service for a hotel, and include people from that role.
 
 * Time limitations leading to an incomplete or partial research.  
-    * It’s important to set the correct expectations for how long effective design research will take. It is not uncommon for a number of meetings to take place as research activities are delegated to members of the team to research and report back. However, having a deadline is also important for setting a line in the sand. Without this control the research phase could go on and on
+    * It’s important to set the correct expectations for how long effective design research will take. It is common for a number of meetings to take place as research activities are delegated to members of the team to research and report back. However, having a deadline is also important for setting a line in the sand. Without this control the research phase could go on and on
 
 * A lack of understanding of the corporate, transformation or project requirements.  
     * It is important that there is a clear understanding of the corporate, transformation or project requirements. This acts as the north star for the project and should include measures for success. This should be the first aspect of the effective design research phase that should be completed and is of the highest priority. If there is still uncertainty with goals, revisit them and investigate.
@@ -197,10 +197,10 @@ The development of bots will likely be an evolution, not a revolution. It may no
 
 ![Discussion](./resources/assets/sess_2.1_sect_3.3.jpg)
 
-The following are potential answers to the questions but encourage your students to come up with more.
+The following are potential answers to the questions but encourage your students to produce more.
 
 How would deal with individuals who required more detail than the High Level Bot Flow Logic would provide?
-* Outline to those concerned that the purpose of the effective design research is to establish the high level objectives of the project, understand the personality of the bot and get an understanding of the tasks that it is trying to solve so the team can start to get an understanding of what technologies may be used. The output is to create a high level bot logic flow and a roadmap with approximately timescales in the first instance. At this stage, a discovery exercise is being performed on what could be possible and more details will be flushed out in other portions of the project such as the LUIS schema design and the physical architectures
+* Outline to those concerned that the purpose of the effective design research is to establish the high-level objectives of the project, understand the personality of the bot and get an understanding of the tasks that it is trying to solve so the team can start to get an understanding of what technologies may be used. The output is to create a high-level bot logic flow and a roadmap with approximately timescales in the first instance. At this stage, a discovery exercise is being performed on what could be possible and more details will be flushed out in other portions of the project such as the LUIS schema design and the physical architectures
 
 What artefacts in addition to those seen in this module would you require to ensure sign-off?  
 * A statement of work with signatures of senior stakeholders.  

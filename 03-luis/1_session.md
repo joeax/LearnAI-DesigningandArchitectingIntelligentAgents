@@ -56,7 +56,7 @@ You could use the tool [LUDown](https://github.com/Microsoft/botbuilder-tools/tr
 
 ![LUIS Intent Evolution/Roadmap.](./resources/assets/sess_3.1_sect_1.4.jpg)
 
-With a more detailed discovery of the business intents, you can augment the high level bot roadmap with greater detail to include the LUIS intents.
+With a more detailed discovery of the business intents, you can augment the high-level bot roadmap with greater detail to include the LUIS intents.
 
 ### Section 2: Designing Entities
 

@@ -40,11 +40,11 @@ An Architecture Engagement contains the following general phases. The phases cov
   </tr>
 </table> 
 
-This code-based lab allows you to work in groups to practice architecting intelligent agents. The output of the lab is for the class to create a Proof-Of-Concept engagement (a plan or the actual code) for a ficticious organization, in a continuation of the previous activities.
+This code-based lab allows you to work in groups to practice architecting intelligent agents. The output of the lab is for the class to create a Proof-Of-Concept engagement (a plan or the actual code) for a fictitious organization, in a continuation of the previous activities.
 
 ## Objectives
 
-In this lab, you will be seperated into groups of 3-5 people as directed by the instructor. Each group will create either a Proof-Of-Concept project-plan or a simple POC for the case study below (and from previous sections) for an intelligent solution for bots. The output is a sample architecture to add to your ADS document (similar to the ones presented in the session) **and** either the POC project-plan (complete with team member assignments, flow, etc.) **or** a an actual implementation of a simple POC, time permitting. Include these artefacts in your project folder so that you can include them in your final Capstone Project.  
+In this lab, you will be separated into groups of 3-5 people as directed by the instructor. Each group will create either a Proof-Of-Concept project-plan or a simple POC for the case study below (and from previous sections) for an intelligent solution for bots. The output is a sample architecture to add to your ADS document (similar to the ones presented in the session) **and** either the POC project-plan (complete with team member assignments, flow, etc.) **or** an actual implementation of a simple POC, time permitting. Include these artefacts in your project folder so that you can include them in your final Capstone Project.  
 
 ## Case Study
 
