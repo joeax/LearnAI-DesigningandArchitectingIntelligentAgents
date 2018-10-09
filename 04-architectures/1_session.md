@@ -310,9 +310,9 @@ Now, bot developers no longer need to host OAuth controllers or manage the token
 
 If you want to get into the code, we recommend checking out these samples for bot authentication with the [V3 SDK](https://github.com/MicrosoftDX/botauth) and [V4 SDK](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/18.bot-authentication). There's even a sample for [authenticating with Microsoft Graph](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/24.bot-authentication-msgraph). 
 
-## Section 3: Bot Framework v4 SDK
+## Section 3: Bot Framework V4 SDK
 
-As you've probably noticed by now, there are two Bot Framework SDK versions in circulation at the moment. The Bot Framework v4 SDK is actively being developed (announced in preview at //build on May 7) and you can access them here (depending on language):
+As you've probably noticed by now, there are two Bot Framework SDK versions in circulation at the moment. The Bot Framework v4 SDK recently went GA (September 2018) and the SDKs can be found at the following URLs:
 
 - [SDK for Node.js](https://github.com/Microsoft/botbuilder-js)
 - [SDK for .NET](https://github.com/Microsoft/botbuilder-dotnet)
@@ -322,7 +322,7 @@ As you've probably noticed by now, there are two Bot Framework SDK versions in c
 Why?  
 
 There are two main reasons:
-1. C#/Node.js SDKs in v3 are vastly different. There are different names for the same concepts, different concepts, different architectures, no common extensibility points, and complex dependency trees.
+1. C#/Node.js SDKs in V3 are vastly different. There are different names for the same concepts, different concepts, different architectures, no common extensibility points, and complex dependency trees.
 2. Both SDKs are too opinionated, regarding conversation management and state management.
 
 So, as you might've guessed, the Bot Framework V4 SDK had four related goals:
