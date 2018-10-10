@@ -308,7 +308,7 @@ Prior to these updates,  your bot needed to include OAuth controllers and login 
 
 Now, bot developers no longer need to host OAuth controllers or manage the token lifecycle, as all of this can now be done by the Azure Bot Service. From within the Azure Portal, you can add, delete, and configure connection settings to various OAuth identity providers (there is support for AAD v1, AAD v2, GitHub, and others).  
 
-If you want to get into the code, we recommend checking out these samples for bot authentication with the [V3 SDK](https://github.com/MicrosoftDX/botauth) and [V4 SDK](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/18.bot-authentication). There's even a sample for [authenticating with Microsoft Graph](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/24.bot-authentication-msgraph). 
+If you want to get into the code, we recommend checking out these samples for bot authentication with the [V3 SDK](https://github.com/MicrosoftDX/botauth) and [V4 SDK](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/18.bot-authentication). There's even a sample for [authenticating with Microsoft Graph](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/24.bot-authentication-msgraph) and [a video](https://channel9.msdn.com/Shows/AI-Show/Conversational-AI-and-Authentication). 
 
 ## Section 3: Bot Framework V4 SDK
 
