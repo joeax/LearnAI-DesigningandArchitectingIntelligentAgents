@@ -21,7 +21,7 @@ In this section, you will explore the steps required to design LUIS Domains and 
 
 A LUIS app is usually centered around a domain-specific topic. For example, you may have a travel app that performs booking of tickets, flights, hotels, and rental cars. Another app may provide content related to exercising, tracking fitness efforts and setting goals. 
 
-Language Understanding (LUIS) provides prebuilt domains, which are prebuilt sets of intents and entities that work together for domains or common categories of client applications. The prebuilt domains have been pre-trained and are ready for you to add to your LUIS app. You can find a full list of the prebuilt domains [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-reference-prebuilt-domains). The intents and entities in a prebuilt domain are fully customizable once you've added them to your app - you can train them with utterances from your system, so they work for your users. You can use an entire prebuilt domain as a starting point for customization, or just borrow a few intents or entities from a prebuilt domain. 
+Language Understanding (LUIS) provides prebuilt domains, which are prebuilt sets of intents and entities that work together for domains or common categories of client applications. The prebuilt domains have been pre-trained and are ready for you to add to your LUIS app. You can find a full list of the prebuilt domains [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-reference-prebuilt-domains). The intents and entities in a custom domain are fully customizable once you've added them to your app - you can train them with utterances from your system, so they work for your users. You can use an entire prebuilt domain as a starting point for customization, or just borrow a few intents or entities from a prebuilt domain. 
 
 The intents and entities in a prebuilt domain work best together. It's better to combine intents and entities from the same domain when possible. A best practice is to use related intents from the same domain. For example, if you are customizing the MakeReservation intent in the Places domain, then select the Cancel intent from the Places domain instead of the Cancel intent in the Events or Utilities domains.
 
@@ -107,7 +107,14 @@ Entities are important for accomplishing an intent. When you determine which ent
 * Prebuilt entity.  
 LUIS provides prebuilt entities for common types like Number, which you can use for the number of tickets in a ticket order.
 
-* Other entities.  
+* Other entities. 
+
+    Machine-learned entities work best when tested via endpoint queries and reviewing endpoint utterances. 
+    Regular expression entities use the open-source Recognizers-Text project. There are many examples of the regular expressions in the /Specs directory for the supported cultures. If your specific culture or regular expression isn't currently supported, contribute to the project. 
+    Exact-match entities use the text provided in the entity to make an exact text match.
+
+
+    A full list of the entity types can be found [here](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-concept-entity-types#types-of-entities)  
 
 Machine-learned entities work best when tested via endpoint queries and reviewing endpoint utterances. 
 Regular expression entities use the open-source Recognizers-Text project. There are many examples of the regular expressions in the /Specs directory for the supported cultures. If your specific culture or regular expression isn't currently supported, contribute to the project. 
@@ -152,9 +159,10 @@ Collect phrases that you think users will say and include utterances that mean t
     * Each intent needs to have example utterances. If you have an intent but do not have any example utterances in that intent, you will not be able to train LUIS. If you have an intent with one or very few example utterances, LUIS will not be able to give accurate predictions. 
 
 * Training utterances  
-    * Training is non-deterministic: the utterance prediction could vary slightly across versions or apps.
+    * Training is non-deterministic: the utterance prediction could vary slightly across versions or apps. 
 
-As a tool to help, you could use [Chatdown](https://github.com/Microsoft/botbuilder-tools/tree/master/Chatdown) with the V4 [Emulator](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0) for designing sample conversations.
+As a tool to help, you could use [Chatdown](https://github.com/Microsoft/botbuilder-tools/tree/master/Chatdown) with the V4 [Emulator](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0) for designing sample conversations. The following video about using chatdown to plan conversations can be found [here](https://channel9.msdn.com/Shows/AI-Show/Conversational-AI-Bot-Building-Tools).
+
 
 ### Section 3.2: Improving Utterance Accuracy.
 
