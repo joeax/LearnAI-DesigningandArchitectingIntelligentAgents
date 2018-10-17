@@ -35,7 +35,7 @@ An Architecture Engagement contains the following general phases. The phases cov
   </tr>
   <tr>
     <td>Handoff</td>
-    <td>Business Organization, Internal and Exeternal Technical Teams</td>
+    <td>Business Organization, Internal and External Technical Teams</td>
     <td>All previous documents, follow-up strategy document</td>
   </tr>
 </table> 
@@ -51,7 +51,7 @@ In this lab, you will be separated into groups as directed by the instructor. Ea
 
 In order to ensure that whole class understands the case study, the lab will begin with a class wide discussion that:
 
-- Defines the organizational requirement of a organization.
+- Defines the organizational requirement of an organization.
 
 ## Case Study
 
@@ -59,7 +59,7 @@ A hotel chain CEO recently announced in a trade magazine that she is looking to 
 
 ## Exercise 1: Defining the organizational requirements
 
-Within your team, have the following discusion, which you will use to create this section's artefacts:
+Within your team, have the following discussion, which you will use to create this section's artefacts:
 
 1. What objectives should be met from the case study?
 2. Does it meet the desirability, feasibility and viability criteria? Cite examples.
@@ -74,7 +74,7 @@ Within your team, have the following discusion, which you will use to create thi
 Using the materials above, document the Bot Personality profile for the organization. Your answer should include the following traits:
 
 * Demographics
-* BIO
+* Biography
 * Goals of the bot
 * Pain Points of the bot
 * Personality

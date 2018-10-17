@@ -57,7 +57,7 @@ A hotel chain CEO recently announced in a trade magazine that she is looking to 
 
 ![Defining a Bot Personality Profile](./resources/assets/sess_3.1_Lab_1.1.jpg)
 
-Using the materials above, define the LUIS domains and intents that you can identify from the case study for a Architecture Design Session (ADS). As a challenge try to map the high level conversation patters to each of the intents that you identify.
+Using the materials above, define the LUIS domains and intents that you can identify from the case study for an Architecture Design Session (ADS). As a challenge try to map the high-level conversation patters to each of the intents that you identify.
 
 ## Exercise 2: Designing Entities 
 

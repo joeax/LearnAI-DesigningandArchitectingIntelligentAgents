@@ -3,7 +3,7 @@
 Welcome to "Designing and Architecting Intelligent Agents." 
 The goal of this course is to enable you to architect intelligent bot solutions. We will do this with technical, deep, discussion-based sessions and activities that help you advance your skills for architecting and designing intelligent bots with natural language understanding, search capabilities, and more. This course is not "Getting Started with..." the various services and assume a 100-200-level familiarity with the products prior to getting started.
 
-Each session should be beneficial in relative isolation, so as long as **appropriate pre-requisites are met**, an individual should be able to complete a given session without needing to complete the others.
+Each session should be beneficial in relative isolation, so as long as **appropriate prerequisites are met**, an individual should be able to complete a given session without needing to complete the others.
 
 This highly interactive 1-day course covers how to deal with complexities during bot design, specifically with regards to natural language understanding (NLU), architectures, and intelligence. You will participate in deep dive discussions and cases around the principles of good bot design and LUIS schema design. You will also become familiar with the recommended reference architectures and customer case studies from the Product Group, and you'll learn when and how to use and integrate various Cognitive Services to make bots smarter.
 
@@ -58,7 +58,7 @@ Please note: The schedule for this agenda is subject to change pending class act
 - 2:15-2:45: [5.1: Integration with Cognitive Services (and more)](./05-cognitive_services/readme.md)
 -   *2:45-3:15: [5.2: Lab (Handoff) - Cognitive Services](./05-cognitive_services/2_activity.md)*
 - 3:15-3:30: Break
--   *3:30-4:45: [6.1: Captsone Project (Discovery, Envisioning, ADS, POC, Implementation, Handoff and Follow-up) ](./06-final_case/readme.md)*
+-   *3:30-4:45: [6.1: Capstone Project (Discovery, Envisioning, ADS, POC, Implementation, Handoff and Follow-up) ](./06-final_case/readme.md)*
 - 4:45-5: Q&A and Feedback
 
 # Contributing
