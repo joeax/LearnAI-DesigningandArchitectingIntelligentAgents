@@ -88,8 +88,6 @@ While we're on the topic of enterprise productivity, it's important to provide a
 * Managed security
 * Inconsistent API access  
 
-We **highly recommend** you read [this article](https://blogs.msdn.microsoft.com/pragdev/2018/02/10/enterprise-bot-architecture/) that explains the scenario, the problem, and a solution.
-
 #### Real world examples for similar architectures
 
 Let's talk about [Apttus](http://www.apttus.com/), a market leader in intelligent Quote-to-Cash (QTC) solutions, that helps companies accelerate their digital transformation efforts and maximize business outcomes. They really committed to Microsoft's Azure platform and services (seriously, the list of products is overwhelming). Let's focus in their AI-driven deal guidance that they developed for sales reps. When a salesperson takes an action, the platform built is able to look at similar sales scenarios and advise the sales rep on the best, most profitable next step. Apttus gave their tech a human touch with a virtual assistant named Max who will guide the sales reps. In addition to interacting with sales reps, she can also carry out complex business process that take hours for humans to complete. The architecture, the details (including Max's personality and contact photo), and a great story can be found [here](https://customers.microsoft.com/en-us/story/apttus). 
