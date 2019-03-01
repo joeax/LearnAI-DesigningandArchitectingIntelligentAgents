@@ -1,11 +1,18 @@
-# Designing and Architecting Intelligent Agents
+# Apps & Agents
 
-Welcome to "Designing and Architecting Intelligent Agents." 
-The goal of this course is to enable you to architect intelligent bot solutions. We will do this with technical, deep, discussion-based sessions and activities that help you advance your skills for architecting and designing intelligent bots with natural language understanding, search capabilities, and more. This course is not "Getting Started with..." the various services and assume a 100-200-level familiarity with the products prior to getting started.
+![Header](./resources/header.png)
+
+## Designing and Architecting Intelligent Agents
+
+## About this course
 
 Each session should be beneficial in relative isolation, so as long as **appropriate prerequisites are met**, an individual should be able to complete a given session without needing to complete the others.
 
 This highly interactive 1-day course covers how to deal with complexities during bot design, specifically with regards to natural language understanding (NLU), architectures, and intelligence. You will participate in deep dive discussions and cases around the principles of good bot design and LUIS schema design. You will also become familiar with the recommended reference architectures and customer case studies from the Product Group, and you'll learn when and how to use and integrate various Cognitive Services to make bots smarter.
+
+## Goals
+
+The goal of this course is to enable you to architect intelligent bot solutions. We will do this with technical, deep, discussion-based sessions and activities that help you advance your skills for architecting and designing intelligent bots with natural language understanding, search capabilities, and more. This course is not "Getting Started with..." the various services and assume a 100-200-level familiarity with the products prior to getting started.
 
 ## Audience and Level
 This 300-level course is intended for Architects that need to design chatbot-based solutions on Microsoft Azure. 300-level is defined at Microsoft as: 
