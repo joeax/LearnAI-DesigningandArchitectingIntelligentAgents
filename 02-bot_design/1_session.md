@@ -13,7 +13,7 @@ In this section, you will explore the steps required to conduct effective design
 1. Understanding the organizational requirements
 2. Understanding the types of conversation patterns
 3. Managing Bot States
-4. Building a personality profile for you bot
+4. Building a personality profile for your bot
 5. Customer Story: Progressive
 
 ### Section 1.1: Understanding the organizational requirements.
